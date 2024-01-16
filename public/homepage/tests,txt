@@ -1,0 +1,16 @@
+<header className="site-header">
+    <div className="container">
+        <div style="display:flex;justify-content: flex-end;gap:10px">
+            <div style=" order: -1;
+            font-size: 3em;
+            position: absolute;
+            top: 0;
+            left: 0;" className='site-logo'>
+                <img style="height: 100px;width: 130px;" className='site-logo-image' src="/homepage/CaesarAILogo.png" alt="Logo"></img>
+            </div>
+            <a  className='site-header-item' href='/signin'><strong >Signin</strong></a>
+            <a  className='site-header-item' href='/signin'><strong >Signup</strong></a>
+            <a  className='site-header-item' href='/signin'><strong >Contact Us</strong></a>
+        </div>
+    </div>
+</header>

@@ -1,0 +1,19 @@
+// TODO use askcontribpermission to get all the quotahashes for the sing contributor hash that are accepted
+// $ TODO In quotas find all quotas using the quotayhash and return them using socketio.
+// $ TODO Once Quotas are rendered make quota clickable will router to caesar seed using quotarurl and contributorhash as url parameter to caesarseed(caesarseed url paramters works already).
+// TODO Convert whole mongodb database to sql database.
+// TODO When torrent is produced store in database using contributors and quotahash. to show credit
+// a. make it so that they create a blockchain password matching it to contributorhash. (Migrate that from MongoDB to PlanetScale)
+
+
+// TODO Generates initial coin/points from initial torrent creation store in database.
+// TODO Then Use Websockets to count nonce. Catch Websocket disconnection in flask. Store final nonce in db and calculate according points/coin and store in db.
+// TODO With contributor hash,quota hash and filename/signiture, 
+// TODO On quotaposter side allow quota poster to download torrent using caesar torrent.
+
+
+// Know that it just needs to be spruced up and secured.
+
+// It is now ready for presentation just highhlight the ups and downs and what the proof to worek system is trying to achieve.
+
+// Final Long: Convert all into fastapi.
